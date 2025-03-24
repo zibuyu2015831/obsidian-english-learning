@@ -16,14 +16,26 @@
 
 本插件实现了以下功能：
 
-- • 单词离线查询，自动创建单词笔记，自动双链；
-- • 词根词缀查询；
-- • 快速为单词添加音标；
-- • AI问答；
-- • AI解析文本；
-- • 中英文的配音（暂不稳定）；
+- 单词离线查询，自动创建单词笔记，自动双链；
+- 词根词缀查询；
+- 快速为单词添加音标；
+- AI问答；
+- AI解析文本；
+- 中英文的配音；
 
 这个插件在iPad、安卓、window、Mac等版本的Obsidian都可以使用。
+
+### 更新记录
+
+
+
+- 20250322
+  - `版本1.3.4`
+  - 修复路径设置bug；
+  - 右键菜单开放自定义；
+  - 完成文本转语音功能，分免费的微软逆向引擎和付费的MinMax引擎；
+- 20250319
+  - 初始版本；
 
 ## 功能演示
 
@@ -55,15 +67,15 @@ https://github.com/zibuyu2015831/obsidian-english-learning
 
 百度网盘链接:
 
-https://pan.baidu.com/s/1rcUqA9F82x3iIykXHPPs0w?pwd=5rhq
+https://pan.baidu.com/s/1zcIbLNtCzClSPqSIq1RZRA?pwd=5an8
 
 夸克网盘链接：
 
-https://pan.quark.cn/s/d28d81c03d6b
+https://pan.quark.cn/s/412b78e54631
 
 123网盘链接：
 
-https://www.123865.com/s/j6a3jv-e9dAh? 提取码:2dnb
+https://www.123865.com/s/j6a3jv-eodAh
 
 ---
 
@@ -120,7 +132,7 @@ iPad和IOS的操作与之类似。
 
 <img src="assets/README/wechat.jpg" alt="wechat" style="zoom:50%;" />
 
-![3569d201a4f7211ab5baad1d4460064](assets/README/3569d201a4f7211ab5baad1d4460064.jpg)
+![d0b7f89b6a2087b6010b036de02408d](assets/README/d0b7f89b6a2087b6010b036de02408d.jpg)
 
 
 ## 词典数据
@@ -159,9 +171,11 @@ iPad和IOS的操作与之类似。
 
 ## 后续计划
 
-- [ ] 增加英语配音功能；
+- [x] 增加英语配音功能：已完成，分免费的微软逆向引擎和付费的MinMax引擎；
 - [ ] 增加单词导出功能；
 - [ ] 英文阅读材料订阅；
+- [ ] 扩充柯林斯、牛津、朗文词典；
+- [ ] 与language learner插件联动；
 - [ ] 扩充词组查询；
 
 
