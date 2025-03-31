@@ -1,0 +1,123 @@
+/*
+
+This CSS file will be included with your plugin, and
+available in the app when your plugin is enabled.
+
+If your plugin does not need CSS, delete this file.
+
+*/
+
+.custom-delete-btn-right {
+  background-color: #cf0c15 !important;
+  color: rgb(243, 243, 217) !important;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+
+  /* 保留过渡动画 */
+  float: right;
+  /* 将按钮浮动到右侧 */
+  margin-bottom: 10px;
+  /* 添加按钮和横线之间的间距 */
+
+}
+
+.custom-delete-btn-right:hover {
+  background-color: #e6484f !important;
+}
+
+.custom-reload-btn-right {
+  background-color: #07710b !important;
+  color: rgb(238, 250, 242) !important;
+  padding: 5px 20px;
+  border: none;
+  border-radius: 14px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  float: right;
+  /* 将按钮浮动到右侧 */
+  margin-bottom: 10px;
+  /* 添加按钮和横线之间的间距 */
+}
+
+.custom-reload-btn-right:hover {
+  background-color: #132b80 !important;
+}
+
+.custom-horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: #ddd;
+  margin-top: 10px;
+  clear: both;
+  /* 确保横线在按钮下面 */
+}
+
+
+/* === 容器样式 === */
+.sortable-container,
+.dict-sortable-container {
+  padding: 10px;
+  background: var(--background-secondary);
+  border-radius: 8px;
+}
+
+/* === 项目通用样式 === */
+.draggable-item,
+.dict-item {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 8px 0;
+  background: var(--background-primary);
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 4px;
+  gap: 12px;
+}
+
+/* === 拖拽手柄 === */
+.drag-handle,
+.dict-drag-handle {
+  cursor: grab;
+  opacity: 0.5;
+  padding: 0 10px;
+  user-select: none;
+}
+
+/* === 开关专用样式 === */
+.dict-toggle {
+  margin-right: 8px;
+}
+
+.dict-name {
+  flex-grow: 1;
+}
+
+/* === 拖拽状态 === */
+.sortable-ghost {
+  opacity: 0.6;
+  background: var(--color-accent-alpha);
+}
+
+.sortable-chosen {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* === 移动端优化 === */
+@media (max-width: 768px) {
+
+  .draggable-item,
+  .dict-item {
+    padding: 12px 15px;
+  }
+
+  .drag-handle,
+  .dict-drag-handle {
+    padding: 0 15px;
+    font-size: 1.2em;
+  }
+}
