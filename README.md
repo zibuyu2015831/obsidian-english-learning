@@ -21,18 +21,16 @@
 - 快速为单词添加音标；
 - AI问答；
 - AI解析文本；
-<<<<<<< HEAD
-- 中英文的配音（暂不稳定）；
-
-这个插件在iPad、安卓、window、Mac等版本的Obsidian都可以使用。
-=======
-- 中英文的配音；
+- 中英文的配音
 
 这个插件在iPad、安卓、window、Mac等版本的Obsidian都可以使用。
 
 ### 更新记录
 
-
+- 20250331
+  - 版本1.3.5
+  - 优化AI问答；
+  - 笔记的各类释义可调节顺序；
 
 - 20250322
   - `版本1.3.4`
@@ -41,7 +39,6 @@
   - 完成文本转语音功能，分免费的微软逆向引擎和付费的MinMax引擎；
 - 20250319
   - 初始版本；
->>>>>>> 5ae7a7a210d3d4d72dd1e4a87f256dd5a6c3b718
 
 ## 功能演示
 
@@ -81,11 +78,7 @@ https://pan.quark.cn/s/412b78e54631
 
 123网盘链接：
 
-<<<<<<< HEAD
-https://www.123865.com/s/j6a3jv-e9dAh? 提取码:2dnb
-=======
 https://www.123865.com/s/j6a3jv-eodAh
->>>>>>> 5ae7a7a210d3d4d72dd1e4a87f256dd5a6c3b718
 
 ---
 
@@ -142,12 +135,7 @@ iPad和IOS的操作与之类似。
 
 <img src="assets/README/wechat.jpg" alt="wechat" style="zoom:50%;" />
 
-<<<<<<< HEAD
-![99436df9510b09517380a2e4e788c94](assets/README/99436df9510b09517380a2e4e788c94.jpg)
-=======
-![d0b7f89b6a2087b6010b036de02408d](assets/README/d0b7f89b6a2087b6010b036de02408d.jpg)
->>>>>>> 5ae7a7a210d3d4d72dd1e4a87f256dd5a6c3b718
-
+![微信群](assets/README/微信群.jpg)
 
 ## 词典数据
 
@@ -188,14 +176,7 @@ iPad和IOS的操作与之类似。
 - [x] 增加英语配音功能：已完成，分免费的微软逆向引擎和付费的MinMax引擎；
 - [ ] 增加单词导出功能；
 - [ ] 英文阅读材料订阅；
-<<<<<<< HEAD
-=======
-- [ ] 扩充柯林斯、牛津、朗文词典；
+- [ ] 扩充柯林斯、牛津、朗文词典；（进行中）
 - [ ] 与language learner插件联动；
->>>>>>> 5ae7a7a210d3d4d72dd1e4a87f256dd5a6c3b718
 - [ ] 扩充词组查询；
-
-
-
-
 
